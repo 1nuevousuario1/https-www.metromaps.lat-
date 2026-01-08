@@ -1,1 +1,1 @@
-www.metromaps.lat
+metromaps.lat
