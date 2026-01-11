@@ -1,10 +1,10 @@
+// Usa tu token de Mapbox aquí (NO el de Google Analytics)
 mapboxgl.accessToken = 'pk.eyJ1Ijoic29sb3lveWplaG92YSIsImEiOiJjbWsyZ3FheXcwZnE5M2ZxNHduOTBnM3c2In0.c6ZiIV6kck5DH-pY9ftlTg';
-;
 
 const map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/streets-v12',
-  center: [-100.309, 25.673],
+  style: 'mapbox://styles/mapbox/streets-v11',
+  center: [-100.3161, 25.6866], // Monterrey
   zoom: 11
 });
 
@@ -130,14 +130,12 @@ function calcularRuta() {
     descripcion += `<p>En el trayecto atraviesas estaciones como <b>${listadoCorto}</b>${hayMas}.</p>`;
   }
 
-  descripcion += `<p>Finalmente llegas a <b>${destinoNombre}</b>.</p>
-    <p><b>Número de estaciones:</b> ${estacionesTotales} en total.</p>
-    <p><b>Tiempo promedio:</b> 1.5–2 minutos por tramo + ${minutosPorTransbordo} minutos por transbordo.</p>
-    <p><b>Tiempo estimado del viaje:</b> ${tiempoEstimado} minutos.</p>`;
+descripcion += `<p>Finalmente llegas a <b>${destinoNombre}</b>.</p>
+  <p><b>Número de estaciones:</b> ${estacionesTotales} en total.</p>
+  <p><b>Tiempo promedio:</b> 1.5–2 minutos por tramo + ${minutosPorTransbordo} minutos por transbordo.</p>
+  <p><b>Tiempo estimado del viaje:</b> ${tiempoEstimado} minutos.</p>`;
 
-  document.getElementById('descripcion').innerHTML = descripcion;
+document.getElementById('descripcion').innerHTML = descripcion;
 }
-
-
 
 
