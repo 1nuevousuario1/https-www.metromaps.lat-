@@ -8,4 +8,4 @@ Incluye mapas estilizados, ubicación de estaciones y herramientas visuales.
 👉 [www.metromaps.lat](https://www.metromaps.lat)
 
 ## Créditos
-Desarrollado por ND – UTEL Universidad
+Desarrollado por ND – 2026
