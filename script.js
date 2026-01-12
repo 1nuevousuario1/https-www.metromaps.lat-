@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'TU_TOKEN';
+mapboxgl.accessToken = 'pk.eyJ1Ijoic29sb3lveWplaG92YSIsImEiOiJjbWsyZ3FheXcwZnE5M2ZxNHduOTBnM3c2In0.c6ZiIV6kck5DH-pY9ftlTg';
 
 // Inicializar mapa
 const map = new mapboxgl.Map({ ... });
