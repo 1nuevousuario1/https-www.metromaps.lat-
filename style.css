@@ -1,15 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 header {
   background: #ff6600;
   color: white;
   padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center; /* centra el texto */
-  position: relative; /* necesario para que el logo absoluto se posicione dentro */
+  display: flex;              /* activa flexbox */
+  align-items: center;        /* centra verticalmente */
+  justify-content: center;    /* centra el título */
+  position: relative;         /* referencia para el logo */
 }
+
 .logo {
-  position: absolute;
+  position: absolute;         /* se coloca en la esquina */
   left: 20px;
-  width: 60px;
+  top: 10px;
+  width: 60px;                /* ajusta tamaño */
   height: auto;
 }
