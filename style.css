@@ -20,3 +20,8 @@ header {
   width: 60px;                /* ajusta tamaño */
   height: auto;
 }
+
+#map {
+  width: 100%;
+  height: 500px;
+}
